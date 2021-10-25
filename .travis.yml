@@ -25,7 +25,6 @@ after_succes:
 deploy:
   - provider: elasticbeanstalk
     edge: true
-
   region: "ap-northeast-2"
   app: "docker-fullstack-app"
   env: "Docker-fullstac-kapp-env"

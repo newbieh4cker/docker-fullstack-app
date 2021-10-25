@@ -23,8 +23,8 @@ after_succes:
   - docker push r3v4/docker-nginx
 
 deploy:
-  - provider: elasticbeanstalk
-    edge: true
+  provider: elasticbeanstalk
+  edge: true
   region: "ap-northeast-2"
   app: "docker-fullstack-app"
   env: "Docker-fullstac-kapp-env"
